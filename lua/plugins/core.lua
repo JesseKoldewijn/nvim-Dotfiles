@@ -1,7 +1,10 @@
 return {
-  -- Configure LazyVim to load gruvbox
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+
+  { "folke/lazy.nvim", version = false },
   {
     "LazyVim/LazyVim",
+    version = false,
     opts = {
       colorscheme = "moonfly",
     },

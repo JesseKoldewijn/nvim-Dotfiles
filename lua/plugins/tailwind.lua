@@ -7,6 +7,7 @@ return {
       },
     },
   },
+
   {
     "NvChad/nvim-colorizer.lua",
     opts = {
@@ -15,6 +16,7 @@ return {
       },
     },
   },
+  
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
