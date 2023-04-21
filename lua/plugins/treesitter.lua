@@ -5,7 +5,6 @@ return {
     opts = {
       ensure_installed = {
         "rust",
-        "help",
         "html",
         "javascript",
         "json",
